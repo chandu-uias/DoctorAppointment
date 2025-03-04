@@ -13,14 +13,14 @@ const notificationRouter = require("./routes/notificationRouter");
 const app = express();
 const port = process.env.PORT || 5015;
 
-// app.use(cors());
-app.use(
-    cors({
-        origin: "https://doctor-appointment-upqq.vercel.app", 
-        methods: "GET,POST,PUT,DELETE",
-        credentials: true 
-    })
-);
+app.use(cors());
+//app.use(
+  //  cors({
+      //  origin: "https://doctor-appointment-upqq.vercel.app", 
+       // methods: "GET,POST,PUT,DELETE",
+       // credentials: true 
+   // })
+//);
 app.use(express.json());
 app.use("/api/user", userRouter);
 app.use("/api/doctor", doctorRouter);
