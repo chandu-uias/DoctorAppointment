@@ -74,10 +74,15 @@ cd DoctorAppointment/backend
 2.Install dependencies:
 
   npm install
+  
 3.Set up environment variables in .env file:
+
   MONGO_URI=your_mongodb_connection_string
+  
   JWT_SECRET=your_secret_key
 
+
 4.Start the backend server:
+
   npm run dev/npm start
 
