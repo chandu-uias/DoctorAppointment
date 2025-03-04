@@ -16,7 +16,8 @@ const port = process.env.PORT || 5015;
 //app.use(cors());
 app.use(
     cors({
-        origin: "https://doctor-appointment-z2xh.vercel.app", 
+        //origin: "https://doctor-appointment-z2xh.vercel.app", 
+        origin:"*",
         methods: "GET,POST,PUT,DELETE",
         credentials: true 
     })
