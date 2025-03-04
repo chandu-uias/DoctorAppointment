@@ -102,9 +102,24 @@ npm start/npm run dev
 
 ## API Endpoints
 
+## Authentication
+
 | Method  | Endpoint              | Description                      |
 |---------|----------------------|----------------------------------|
 | POST    | /api/auth/register   | Register a new user             |
 | POST    | /api/auth/login      | Login user and return JWT token |
+
+## Doctor Management
+
+| Method  | Endpoint              | Description                      |
+|---------|----------------------|----------------------------------|
+|GET   |/api/doctors  |Get list of all doctors             |
+|GET   | /api/doctors/:id     | Get doctor profile by ID|
+
+## Appointment Management
+
+| Method  | Endpoint              | Description                      |
+|---------|----------------------|----------------------------------|
+|POST |/api/appointments  |Book an appointment            |
 
 
