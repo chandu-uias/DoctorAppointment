@@ -102,10 +102,9 @@ npm start/npm run dev
 
 ## API Endpoints
 
-| Method |Endpoint|Description|
-|----------|----------|
-| POST| /api/auth/register  | Register a new user|
-| POST| /api/auth/login  | Register a new user|
-| Authentication |Login user and return JWT token | 
-| Database  |MongoDB   | 
+| Method  | Endpoint              | Description                      |
+|---------|----------------------|----------------------------------|
+| POST    | /api/auth/register   | Register a new user             |
+| POST    | /api/auth/login      | Login user and return JWT token |
+
 
