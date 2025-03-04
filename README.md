@@ -1,29 +1,62 @@
-# Doctor Appointment System
+# Doctor Search & Appointment Booking System
 
 ## Overview
 
-This project is a Doctor Appointment System built with React, Express.js, and MongoDB. It includes features for managing doctors, appointments, calendars, and user authentication.
+This project is a MERN Stack application that allows patients to search for doctors and book appointments. Doctors can  manage their appointments. The system includes authentication, search functionality, booking management, and notifications.
 
-## Features
+## 1. User Authentication & Role Management
 
-- User Authentication (Login, Register, Forgot Password)
-- Manage Doctors (Add, Edit, List)
-- Manage Appointments (Add, Edit, List)
-- Manage Calendars (Add, Edit, List)
-- Navigation bar with links to different sections
+-JWT-based authentication for Doctors and Patients.
 
-## Getting Started
+-Secure password hashing with bcrypt.
 
-### Prerequisites
+-Patients can register/login and book appointments.
 
-- Node.js and npm (Node Package Manager) installed on your machine.
-- MongoDB server running or a cloud MongoDB instance.
-- Git for version control.
+-Doctors can register/login and manage appointments.
 
-### Installation
+## 2. Doctor Search & Profile Management
 
-1. **Clone the Repository**
+-Patients can search for doctors by:
 
-   ```bash
-   git clone https://github.com/yourusername/doctor-appointment-system.git
-   cd doctor-appointment-system
+-Specialty (e.g., Cardiologist, Dermatologist)
+
+-Doctor’s Name (Partial match search)
+
+-Individual Doctor Profile Page with:
+
+-Name, Specialty, And Experience.
+## 3. Appointment Booking System
+-Patients can book an available slot with a doctor.
+
+-Notifications for bookings.
+## 4. Web Interface (Frontend)
+
+-Patient Portal:
+
+-Search for doctors.
+
+-Book appointments.
+
+Doctor Dashboard:
+-View upcoming appointments.
+
+-Built with React.js and Tailwind CSS.
+
+-Redux/Context API for state management.
+## 5. Deployment & Documentation
+
+-Backend deployed on: Vercel
+
+-Frontend deployed on: Vercel
+
+-Live Demo: https://doctor-appointment-z2xh.vercel.app/
+
+-Detailed documentation included.
+
+## Tech Stack
+| Category |Technology |
+|----------|----------|
+| Backend | Node.js, Express.js, MongoDB, Mongoose  | 
+| Frontend  |React.js, Tailwind CSS, Redux/Context API   | 
+| Authentication | JWT, bcrypt.js | 
+| Database  |MongoDB   | 
