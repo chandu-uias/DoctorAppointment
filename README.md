@@ -86,3 +86,26 @@ cd DoctorAppointment/backend
 
   npm run dev/npm start
 
+## Frontend Setup
+
+Navigate to the frontend folder:
+
+cd ../frontend
+
+Install dependencies:
+
+npm install
+
+Start the frontend server:
+
+npm start/npm run dev
+
+## API Endpoints
+
+| Method |Endpoint|Description|
+|----------|----------|
+| POST| /api/auth/register  | Register a new user|
+| POST| /api/auth/login  | Register a new user|
+| Authentication |Login user and return JWT token | 
+| Database  |MongoDB   | 
+
