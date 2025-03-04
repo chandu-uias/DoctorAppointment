@@ -60,3 +60,13 @@ Doctor Dashboard:
 | Frontend  |React.js, Tailwind CSS, Redux/Context API   | 
 | Authentication | JWT, bcrypt.js | 
 | Database  |MongoDB   | 
+
+## Installation & Setup
+
+## Backend Setup
+
+1.Clone the repository
+
+git clone https://github.com/chandu-uias/DoctorAppointment.git
+cd DoctorAppointment/backend
+
