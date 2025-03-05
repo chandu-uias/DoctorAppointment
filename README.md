@@ -122,4 +122,6 @@ npm start/npm run dev
 |---------|----------------------|----------------------------------|
 |POST |/api/appointments  |Book an appointment            |
 
+## Watch the Project Demo
+📹 Watch Demo:https://drive.google.com/file/d/1P0eNng6xxoKdBEM-GQzKNVvd2lgB__RL/view?usp=drive_link
 
